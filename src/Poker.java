@@ -1,3 +1,7 @@
+package jp.ac.hal.jv93.poker;
+
+
+
 public class Poker {
 	public static void main(String[] args) {
 		Deck	d	= new Deck();
@@ -12,9 +16,9 @@ public class Poker {
 				d.shuffle2();
 			}
 			t1 =System.currentTimeMillis()-t1;
-			System.out.println("ŠÔ‚Í" + t1 + "m•b" );
+			System.out.println("æ™‚é–“ã¯" + t1 + "mç§’" );
 		}
-		System.out.println("•½‹Ï‚Í" + (System.currentTimeMillis()-t2)/round + "m•b");
+		System.out.println("å¹³å‡ã¯" + (System.currentTimeMillis()-t2)/round + "mç§’");
 		d.debugDisp();
 	}
 

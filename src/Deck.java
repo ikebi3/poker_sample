@@ -1,9 +1,10 @@
+package jp.ac.hal.jv93.poker;
 import java.util.Arrays;
 import java.util.Random;
 
 class Deck {
 	private			Random	r		= new Random();
-	private			int[]	cards	= new int[C.CARD_NUM];//ŽRŽD
+	private			int[]	cards	= new int[C.CARD_NUM];//å±±æœ­
 	private			int[]	cardsCheck;
 	private final	int[]	cardsM;
 
